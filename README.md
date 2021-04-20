@@ -10,6 +10,7 @@
 
 #Problem #3
     Write a function to parse a log file & extract details of Errors & Warnings recorded into a separate file.
+    A local log file referred is attached.
 
 #Problem #4
     Write a function that provides a change directory (cd) function for an abstract file system.
