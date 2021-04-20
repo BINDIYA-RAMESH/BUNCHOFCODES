@@ -1,0 +1,511 @@
+2021-04-08T20:50:57.891+0530 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2021-04-08T20:50:57.899+0530 I CONTROL  [initandlisten] MongoDB starting : pid=13256 port=27017 dbpath=/home/avanseus/mongoDBPATH/ 64-bit host=avanseus-ThinkPad-E470
+2021-04-08T20:50:57.899+0530 I CONTROL  [initandlisten] db version v4.0.23
+2021-04-08T20:50:57.899+0530 I CONTROL  [initandlisten] git version: 07c6611b38d2aacbdb1846b688db70b3273170fb
+2021-04-08T20:50:57.899+0530 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.1  11 Sep 2018
+2021-04-08T20:50:57.899+0530 I CONTROL  [initandlisten] allocator: tcmalloc
+2021-04-08T20:50:57.899+0530 I CONTROL  [initandlisten] modules: none
+2021-04-08T20:50:57.899+0530 I CONTROL  [initandlisten] build environment:
+2021-04-08T20:50:57.899+0530 I CONTROL  [initandlisten]     distmod: ubuntu1804
+2021-04-08T20:50:57.899+0530 I CONTROL  [initandlisten]     distarch: x86_64
+2021-04-08T20:50:57.899+0530 I CONTROL  [initandlisten]     target_arch: x86_64
+2021-04-08T20:50:57.899+0530 I CONTROL  [initandlisten] options: { config: "/home/avanseus/Downloads/mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, processManagement: { fork: true, pidFilePath: "/home/avanseus/mongoDBPATH/mongod.pid" }, storage: { dbPath: "/home/avanseus/mongoDBPATH/", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "/home/avanseus/mongoLOGS/mongod.log" } }
+2021-04-08T20:50:57.899+0530 E ERROR  [initandlisten] Failed to unlink socket file /tmp/mongodb-27017.sock Operation not permitted
+2021-04-08T20:50:57.899+0530 F -        [initandlisten] Fatal Assertion 40486 at src/mongo/transport/transport_layer_asio.cpp 693
+2021-04-08T20:50:57.899+0530 F -        [initandlisten] \n\n***aborting after fassert() failure\n\n
+2021-04-08T20:55:09.817+0530 I CONTROL  [main] ***** SERVER RESTARTED *****
+2021-04-08T20:55:09.833+0530 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2021-04-08T20:55:09.846+0530 I CONTROL  [initandlisten] MongoDB starting : pid=13798 port=27017 dbpath=/home/avanseus/mongoDBPATH/ 64-bit host=avanseus-ThinkPad-E470
+2021-04-08T20:55:09.846+0530 I CONTROL  [initandlisten] db version v4.0.23
+2021-04-08T20:55:09.846+0530 I CONTROL  [initandlisten] git version: 07c6611b38d2aacbdb1846b688db70b3273170fb
+2021-04-08T20:55:09.846+0530 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.1  11 Sep 2018
+2021-04-08T20:55:09.846+0530 I CONTROL  [initandlisten] allocator: tcmalloc
+2021-04-08T20:55:09.846+0530 I CONTROL  [initandlisten] modules: none
+2021-04-08T20:55:09.846+0530 I CONTROL  [initandlisten] build environment:
+2021-04-08T20:55:09.846+0530 I CONTROL  [initandlisten]     distmod: ubuntu1804
+2021-04-08T20:55:09.846+0530 I CONTROL  [initandlisten]     distarch: x86_64
+2021-04-08T20:55:09.846+0530 I CONTROL  [initandlisten]     target_arch: x86_64
+2021-04-08T20:55:09.846+0530 I CONTROL  [initandlisten] options: { config: "/home/avanseus/Downloads/mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, processManagement: { fork: true, pidFilePath: "/home/avanseus/mongoDBPATH/mongod.pid" }, storage: { dbPath: "/home/avanseus/mongoDBPATH/", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "/home/avanseus/mongoLOGS/mongod.log" } }
+2021-04-08T20:55:09.846+0530 E STORAGE  [initandlisten] Failed to set up listener: SocketException: Address already in use
+2021-04-08T20:55:09.846+0530 I REPL     [initandlisten] Stepping down the ReplicationCoordinator for shutdown, waitTime: 10000ms
+2021-04-08T20:55:09.847+0530 I ERROR  [initandlisten] Shutting down the global connection pool
+2021-04-08T20:55:09.847+0530 I -        [initandlisten] Killing all operations for shutdown
+2021-04-08T20:55:09.847+0530 I ERROR  [initandlisten] Shutting down the ReplicaSetMonitor
+2021-04-08T20:55:09.847+0530 I CONTROL  [initandlisten] Shutting down free monitoring
+2021-04-08T20:55:09.847+0530 I FTDC     [initandlisten] Shutting down full-time data capture
+2021-04-08T20:55:09.847+0530 I STORAGE  [initandlisten] Shutting down the HealthLog
+2021-04-08T20:55:09.847+0530 I -        [initandlisten] Dropping the scope cache for shutdown
+2021-04-08T20:55:09.847+0530 I CONTROL  [initandlisten] now exiting
+2021-04-08T20:55:09.847+0530 I CONTROL  [initandlisten] shutting down with code:48
+2021-04-08T20:57:21.491+0530 I CONTROL  [main] ***** SERVER RESTARTED *****
+2021-04-08T20:57:21.502+0530 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2021-04-08T20:57:21.518+0530 I CONTROL  [initandlisten] MongoDB starting : pid=13851 port=27017 dbpath=/home/avanseus/mongoDBPATH/ 64-bit host=avanseus-ThinkPad-E470
+2021-04-08T20:57:21.518+0530 I CONTROL  [initandlisten] db version v4.0.23
+2021-04-08T20:57:21.519+0530 I CONTROL  [initandlisten] git version: 07c6611b38d2aacbdb1846b688db70b3273170fb
+2021-04-08T20:57:21.519+0530 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.1  11 Sep 2018
+2021-04-08T20:57:21.519+0530 I CONTROL  [initandlisten] allocator: tcmalloc
+2021-04-08T20:57:21.519+0530 I CONTROL  [initandlisten] modules: none
+2021-04-08T20:57:21.519+0530 I CONTROL  [initandlisten] build environment:
+2021-04-08T20:57:21.519+0530 I CONTROL  [initandlisten]     distmod: ubuntu1804
+2021-04-08T20:57:21.519+0530 I CONTROL  [initandlisten]     distarch: x86_64
+2021-04-08T20:57:21.519+0530 I CONTROL  [initandlisten]     target_arch: x86_64
+2021-04-08T20:57:21.519+0530 I CONTROL  [initandlisten] options: { config: "/home/avanseus/Downloads/mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, processManagement: { fork: true, pidFilePath: "/home/avanseus/mongoDBPATH/mongod.pid" }, storage: { dbPath: "/home/avanseus/mongoDBPATH/", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "/home/avanseus/mongoLOGS/mongod.log" } }
+2021-04-08T20:57:21.567+0530 I STORAGE  [initandlisten] 
+2021-04-08T20:57:21.567+0530 I WARNING  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+2021-04-08T20:57:21.567+0530 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+2021-04-08T20:57:21.592+0530 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3420M,cache_overflow=(file_max=0M),session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2021-04-08T20:57:22.511+0530 I STORAGE  [initandlisten] WiredTiger message [1617895642:511661][13851:0x7fd56b1f9a40], txn-recover: Set global recovery timestamp: 0
+2021-04-08T20:57:22.748+0530 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2021-04-08T20:57:22.953+0530 I STORAGE  [initandlisten] Starting to check the table logging settings for existing WiredTiger tables
+2021-04-08T20:57:23.060+0530 I CONTROL  [initandlisten] 
+2021-04-08T20:57:23.060+0530 I WARNING  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2021-04-08T20:57:23.060+0530 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2021-04-08T20:57:23.060+0530 I CONTROL  [initandlisten] 
+2021-04-08T20:57:23.157+0530 I STORAGE  [initandlisten] createCollection: admin.system.version with provided UUID: dc50cf09-ab23-400b-acdc-c61cace20ce9
+2021-04-08T20:57:23.478+0530 I SHARDING [initandlisten] Marking collection admin.system.version as collection version: <unsharded>
+2021-04-08T20:57:23.478+0530 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 4.0
+2021-04-08T20:57:23.478+0530 I SHARDING [initandlisten] Marking collection local.system.replset as collection version: <unsharded>
+2021-04-08T20:57:23.479+0530 I STORAGE  [initandlisten] Finished adjusting the table logging settings for existing WiredTiger tables
+2021-04-08T20:57:23.479+0530 I SHARDING [initandlisten] Marking collection admin.system.roles as collection version: <unsharded>
+2021-04-08T20:57:23.480+0530 I STORAGE  [initandlisten] createCollection: local.startup_log with generated UUID: d08535d2-f363-4ace-b295-2a266247a88d
+2021-04-08T20:57:23.698+0530 I SHARDING [initandlisten] Marking collection local.startup_log as collection version: <unsharded>
+2021-04-08T20:57:23.698+0530 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/home/avanseus/mongoDBPATH/diagnostic.data'
+2021-04-08T20:57:23.755+0530 I SHARDING [LogicalSessionCacheRefresh] Marking collection config.system.sessions as collection version: <unsharded>
+2021-04-08T20:57:23.756+0530 I ERROR  [initandlisten] waiting for connections on port 27017
+2021-04-08T20:57:23.800+0530 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2021-04-08T20:57:23.816+0530 I STORAGE  [LogicalSessionCacheRefresh] createCollection: config.system.sessions with generated UUID: ce7411ed-f9e2-4f12-bf72-28a17ed0a9cb
+2021-04-08T20:57:24.052+0530 I SHARDING [ftdc] Marking collection local.oplog.rs as collection version: <unsharded>
+2021-04-08T20:57:24.184+0530 I INDEX    [LogicalSessionCacheRefresh] build index on: config.system.sessions properties: { v: 2, key: { lastUse: 1 }, name: "lsidTTLIndex", ns: "config.system.sessions", expireAfterSeconds: 1800 }
+2021-04-08T20:57:24.184+0530 I INDEX    [LogicalSessionCacheRefresh] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2021-04-08T20:57:24.187+0530 I INDEX    [LogicalSessionCacheRefresh] build index done.  scanned 0 total records. 0 secs
+2021-04-08T20:57:24.188+0530 I COMMAND  [LogicalSessionCacheRefresh] command config.$cmd command: createIndexes { createIndexes: "system.sessions", indexes: [ { key: { lastUse: 1 }, name: "lsidTTLIndex", expireAfterSeconds: 1800 } ], $db: "config" } numYields:0 reslen:114 locks:{ Global: { acquireCount: { r: 2, w: 2 } }, Database: { acquireCount: { w: 2, W: 1 } }, Collection: { acquireCount: { w: 2 } } } storage:{} protocol:op_msg 375ms
+2021-04-08T21:02:23.755+0530 I SHARDING [LogicalSessionCacheReap] Marking collection config.transactions as collection version: <unsharded>
+2021-04-08T22:38:32.417+0530 I ERROR  [listener] connection accepted from 127.0.0.1:57752 #1 (1 connection now open)
+2021-04-08T22:38:32.526+0530 I ERROR  [listener] connection accepted from 127.0.0.1:57750 #2 (2 connections now open)
+2021-04-08T22:38:32.547+0530 I ERROR  [conn2] end connection 127.0.0.1:57750 (1 connection now open)
+2021-04-08T22:38:32.733+0530 I ERROR  [conn1] end connection 127.0.0.1:57752 (0 connections now open)
+2021-04-09T12:58:53.861+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60618 #3 (1 connection now open)
+2021-04-09T12:58:53.929+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60620 #4 (2 connections now open)
+2021-04-09T12:58:54.114+0530 I SHARDING [conn3] Marking collection admin.system.users as collection version: <unsharded>
+2021-04-09T12:58:54.135+0530 I ACCESS   [conn3] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60618 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:58:54.136+0530 I ACCESS   [conn4] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60620 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:58:54.285+0530 I COMMAND  [conn3] command admin.system.users command: saslStart { saslStart: 1, mechanism: "SCRAM-SHA-1", payload: "xxx", $db: "saikat" } numYields:0 ok:0 errMsg:"Authentication failed." errName:AuthenticationFailed errCode:18 reslen:133 locks:{ Global: { acquireCount: { r: 1 } }, Database: { acquireCount: { r: 1 } }, Collection: { acquireCount: { r: 1 } } } protocol:op_query 172ms
+2021-04-09T12:58:54.285+0530 I COMMAND  [conn4] command admin.system.users command: saslStart { saslStart: 1, mechanism: "SCRAM-SHA-1", payload: "xxx", $db: "saikat" } numYields:0 ok:0 errMsg:"Authentication failed." errName:AuthenticationFailed errCode:18 reslen:133 locks:{ Global: { acquireCount: { r: 1 } }, Database: { acquireCount: { r: 1 } }, Collection: { acquireCount: { r: 1 } } } protocol:op_query 172ms
+2021-04-09T12:58:54.308+0530 I ERROR  [conn4] end connection 127.0.0.1:60620 (1 connection now open)
+2021-04-09T12:58:54.308+0530 I ERROR  [conn3] end connection 127.0.0.1:60618 (0 connections now open)
+2021-04-09T12:58:54.813+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60622 #5 (1 connection now open)
+2021-04-09T12:58:54.819+0530 I ACCESS   [conn5] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60622 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:58:54.821+0530 I ERROR  [conn5] end connection 127.0.0.1:60622 (0 connections now open)
+2021-04-09T12:58:55.322+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60624 #6 (1 connection now open)
+2021-04-09T12:58:55.326+0530 I ACCESS   [conn6] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60624 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:58:55.328+0530 I ERROR  [conn6] end connection 127.0.0.1:60624 (0 connections now open)
+2021-04-09T12:58:55.830+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60626 #7 (1 connection now open)
+2021-04-09T12:58:55.834+0530 I ACCESS   [conn7] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60626 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:58:55.835+0530 I ERROR  [conn7] end connection 127.0.0.1:60626 (0 connections now open)
+2021-04-09T12:58:56.335+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60628 #8 (1 connection now open)
+2021-04-09T12:58:56.340+0530 I ACCESS   [conn8] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60628 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:58:56.342+0530 I ERROR  [conn8] end connection 127.0.0.1:60628 (0 connections now open)
+2021-04-09T12:58:56.843+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60630 #9 (1 connection now open)
+2021-04-09T12:58:56.847+0530 I ACCESS   [conn9] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60630 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:58:56.849+0530 I ERROR  [conn9] end connection 127.0.0.1:60630 (0 connections now open)
+2021-04-09T12:58:57.350+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60632 #10 (1 connection now open)
+2021-04-09T12:58:57.355+0530 I ACCESS   [conn10] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60632 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:58:57.355+0530 I ERROR  [conn10] end connection 127.0.0.1:60632 (0 connections now open)
+2021-04-09T12:58:57.856+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60634 #11 (1 connection now open)
+2021-04-09T12:58:57.862+0530 I ACCESS   [conn11] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60634 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:58:57.863+0530 I ERROR  [conn11] end connection 127.0.0.1:60634 (0 connections now open)
+2021-04-09T12:58:58.364+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60636 #12 (1 connection now open)
+2021-04-09T12:58:58.369+0530 I ACCESS   [conn12] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60636 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:58:58.370+0530 I ERROR  [conn12] end connection 127.0.0.1:60636 (0 connections now open)
+2021-04-09T12:58:58.872+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60638 #13 (1 connection now open)
+2021-04-09T12:58:58.875+0530 I ACCESS   [conn13] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60638 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:58:58.876+0530 I ERROR  [conn13] end connection 127.0.0.1:60638 (0 connections now open)
+2021-04-09T12:58:59.377+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60640 #14 (1 connection now open)
+2021-04-09T12:58:59.382+0530 I ACCESS   [conn14] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60640 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:58:59.383+0530 I ERROR  [conn14] end connection 127.0.0.1:60640 (0 connections now open)
+2021-04-09T12:58:59.885+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60642 #15 (1 connection now open)
+2021-04-09T12:58:59.890+0530 I ACCESS   [conn15] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60642 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:58:59.892+0530 I ERROR  [conn15] end connection 127.0.0.1:60642 (0 connections now open)
+2021-04-09T12:59:00.394+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60644 #16 (1 connection now open)
+2021-04-09T12:59:00.399+0530 I ACCESS   [conn16] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60644 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:00.401+0530 I ERROR  [conn16] end connection 127.0.0.1:60644 (0 connections now open)
+2021-04-09T12:59:00.903+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60646 #17 (1 connection now open)
+2021-04-09T12:59:00.908+0530 I ACCESS   [conn17] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60646 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:00.908+0530 I ERROR  [conn17] end connection 127.0.0.1:60646 (0 connections now open)
+2021-04-09T12:59:01.410+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60648 #18 (1 connection now open)
+2021-04-09T12:59:01.415+0530 I ACCESS   [conn18] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60648 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:01.417+0530 I ERROR  [conn18] end connection 127.0.0.1:60648 (0 connections now open)
+2021-04-09T12:59:01.919+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60650 #19 (1 connection now open)
+2021-04-09T12:59:01.922+0530 I ACCESS   [conn19] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60650 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:01.923+0530 I ERROR  [conn19] end connection 127.0.0.1:60650 (0 connections now open)
+2021-04-09T12:59:02.424+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60652 #20 (1 connection now open)
+2021-04-09T12:59:02.428+0530 I ACCESS   [conn20] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60652 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:02.428+0530 I ERROR  [conn20] end connection 127.0.0.1:60652 (0 connections now open)
+2021-04-09T12:59:02.930+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60654 #21 (1 connection now open)
+2021-04-09T12:59:02.934+0530 I ACCESS   [conn21] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60654 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:02.936+0530 I ERROR  [conn21] end connection 127.0.0.1:60654 (0 connections now open)
+2021-04-09T12:59:03.437+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60656 #22 (1 connection now open)
+2021-04-09T12:59:03.442+0530 I ACCESS   [conn22] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60656 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:03.445+0530 I ERROR  [conn22] end connection 127.0.0.1:60656 (0 connections now open)
+2021-04-09T12:59:03.946+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60658 #23 (1 connection now open)
+2021-04-09T12:59:03.951+0530 I ACCESS   [conn23] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60658 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:03.953+0530 I ERROR  [conn23] end connection 127.0.0.1:60658 (0 connections now open)
+2021-04-09T12:59:04.314+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60660 #24 (1 connection now open)
+2021-04-09T12:59:04.320+0530 I ACCESS   [conn24] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60660 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:04.322+0530 I ERROR  [conn24] end connection 127.0.0.1:60660 (0 connections now open)
+2021-04-09T12:59:04.455+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60662 #25 (1 connection now open)
+2021-04-09T12:59:04.459+0530 I ACCESS   [conn25] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60662 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:04.460+0530 I ERROR  [conn25] end connection 127.0.0.1:60662 (0 connections now open)
+2021-04-09T12:59:04.962+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60664 #26 (1 connection now open)
+2021-04-09T12:59:04.967+0530 I ACCESS   [conn26] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60664 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:04.968+0530 I ERROR  [conn26] end connection 127.0.0.1:60664 (0 connections now open)
+2021-04-09T12:59:05.468+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60666 #27 (1 connection now open)
+2021-04-09T12:59:05.472+0530 I ACCESS   [conn27] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60666 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:05.473+0530 I ERROR  [conn27] end connection 127.0.0.1:60666 (0 connections now open)
+2021-04-09T12:59:05.974+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60668 #28 (1 connection now open)
+2021-04-09T12:59:05.979+0530 I ACCESS   [conn28] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60668 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:05.982+0530 I ERROR  [conn28] end connection 127.0.0.1:60668 (0 connections now open)
+2021-04-09T12:59:06.482+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60670 #29 (1 connection now open)
+2021-04-09T12:59:06.486+0530 I ACCESS   [conn29] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60670 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:06.487+0530 I ERROR  [conn29] end connection 127.0.0.1:60670 (0 connections now open)
+2021-04-09T12:59:06.989+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60672 #30 (1 connection now open)
+2021-04-09T12:59:06.992+0530 I ACCESS   [conn30] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60672 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:06.994+0530 I ERROR  [conn30] end connection 127.0.0.1:60672 (0 connections now open)
+2021-04-09T12:59:07.495+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60674 #31 (1 connection now open)
+2021-04-09T12:59:07.499+0530 I ACCESS   [conn31] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60674 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:07.501+0530 I ERROR  [conn31] end connection 127.0.0.1:60674 (0 connections now open)
+2021-04-09T12:59:08.002+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60676 #32 (1 connection now open)
+2021-04-09T12:59:08.006+0530 I ACCESS   [conn32] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60676 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:08.008+0530 I ERROR  [conn32] end connection 127.0.0.1:60676 (0 connections now open)
+2021-04-09T12:59:08.509+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60678 #33 (1 connection now open)
+2021-04-09T12:59:08.512+0530 I ACCESS   [conn33] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60678 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:08.514+0530 I ERROR  [conn33] end connection 127.0.0.1:60678 (0 connections now open)
+2021-04-09T12:59:09.016+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60680 #34 (1 connection now open)
+2021-04-09T12:59:09.020+0530 I ACCESS   [conn34] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60680 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:09.022+0530 I ERROR  [conn34] end connection 127.0.0.1:60680 (0 connections now open)
+2021-04-09T12:59:09.524+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60682 #35 (1 connection now open)
+2021-04-09T12:59:09.528+0530 I ACCESS   [conn35] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60682 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:09.530+0530 I ERROR  [conn35] end connection 127.0.0.1:60682 (0 connections now open)
+2021-04-09T12:59:10.030+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60684 #36 (1 connection now open)
+2021-04-09T12:59:10.033+0530 I ACCESS   [conn36] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60684 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:10.033+0530 I ERROR  [conn36] end connection 127.0.0.1:60684 (0 connections now open)
+2021-04-09T12:59:10.535+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60686 #37 (1 connection now open)
+2021-04-09T12:59:10.538+0530 I ACCESS   [conn37] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60686 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:10.540+0530 I ERROR  [conn37] end connection 127.0.0.1:60686 (0 connections now open)
+2021-04-09T12:59:11.042+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60688 #38 (1 connection now open)
+2021-04-09T12:59:11.046+0530 I ACCESS   [conn38] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60688 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:11.048+0530 I ERROR  [conn38] end connection 127.0.0.1:60688 (0 connections now open)
+2021-04-09T12:59:11.550+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60690 #39 (1 connection now open)
+2021-04-09T12:59:11.554+0530 I ACCESS   [conn39] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60690 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:11.556+0530 I ERROR  [conn39] end connection 127.0.0.1:60690 (0 connections now open)
+2021-04-09T12:59:12.058+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60692 #40 (1 connection now open)
+2021-04-09T12:59:12.062+0530 I ACCESS   [conn40] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60692 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:12.063+0530 I ERROR  [conn40] end connection 127.0.0.1:60692 (0 connections now open)
+2021-04-09T12:59:12.565+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60694 #41 (1 connection now open)
+2021-04-09T12:59:12.569+0530 I ACCESS   [conn41] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60694 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:12.570+0530 I ERROR  [conn41] end connection 127.0.0.1:60694 (0 connections now open)
+2021-04-09T12:59:13.071+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60696 #42 (1 connection now open)
+2021-04-09T12:59:13.075+0530 I ACCESS   [conn42] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60696 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:13.077+0530 I ERROR  [conn42] end connection 127.0.0.1:60696 (0 connections now open)
+2021-04-09T12:59:13.579+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60698 #43 (1 connection now open)
+2021-04-09T12:59:13.583+0530 I ACCESS   [conn43] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60698 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:13.584+0530 I ERROR  [conn43] end connection 127.0.0.1:60698 (0 connections now open)
+2021-04-09T12:59:14.086+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60700 #44 (1 connection now open)
+2021-04-09T12:59:14.089+0530 I ACCESS   [conn44] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60700 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:14.090+0530 I ERROR  [conn44] end connection 127.0.0.1:60700 (0 connections now open)
+2021-04-09T12:59:14.325+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60702 #45 (1 connection now open)
+2021-04-09T12:59:14.330+0530 I ACCESS   [conn45] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60702 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:14.331+0530 I ERROR  [conn45] end connection 127.0.0.1:60702 (0 connections now open)
+2021-04-09T12:59:14.591+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60704 #46 (1 connection now open)
+2021-04-09T12:59:14.595+0530 I ACCESS   [conn46] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60704 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:14.597+0530 I ERROR  [conn46] end connection 127.0.0.1:60704 (0 connections now open)
+2021-04-09T12:59:15.098+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60706 #47 (1 connection now open)
+2021-04-09T12:59:15.102+0530 I ACCESS   [conn47] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60706 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:15.104+0530 I ERROR  [conn47] end connection 127.0.0.1:60706 (0 connections now open)
+2021-04-09T12:59:15.605+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60708 #48 (1 connection now open)
+2021-04-09T12:59:15.609+0530 I ACCESS   [conn48] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60708 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:15.610+0530 I ERROR  [conn48] end connection 127.0.0.1:60708 (0 connections now open)
+2021-04-09T12:59:16.112+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60710 #49 (1 connection now open)
+2021-04-09T12:59:16.116+0530 I ACCESS   [conn49] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60710 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:16.118+0530 I ERROR  [conn49] end connection 127.0.0.1:60710 (0 connections now open)
+2021-04-09T12:59:16.619+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60712 #50 (1 connection now open)
+2021-04-09T12:59:16.623+0530 I ACCESS   [conn50] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60712 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:16.625+0530 I ERROR  [conn50] end connection 127.0.0.1:60712 (0 connections now open)
+2021-04-09T12:59:17.127+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60714 #51 (1 connection now open)
+2021-04-09T12:59:17.131+0530 I ACCESS   [conn51] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60714 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:17.133+0530 I ERROR  [conn51] end connection 127.0.0.1:60714 (0 connections now open)
+2021-04-09T12:59:17.635+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60716 #52 (1 connection now open)
+2021-04-09T12:59:17.639+0530 I ACCESS   [conn52] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60716 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:17.640+0530 I ERROR  [conn52] end connection 127.0.0.1:60716 (0 connections now open)
+2021-04-09T12:59:18.141+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60718 #53 (1 connection now open)
+2021-04-09T12:59:18.145+0530 I ACCESS   [conn53] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60718 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:18.146+0530 I ERROR  [conn53] end connection 127.0.0.1:60718 (0 connections now open)
+2021-04-09T12:59:18.647+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60720 #54 (1 connection now open)
+2021-04-09T12:59:18.651+0530 I ACCESS   [conn54] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60720 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:18.653+0530 I ERROR  [conn54] end connection 127.0.0.1:60720 (0 connections now open)
+2021-04-09T12:59:19.154+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60722 #55 (1 connection now open)
+2021-04-09T12:59:19.158+0530 I ACCESS   [conn55] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60722 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:19.159+0530 I ERROR  [conn55] end connection 127.0.0.1:60722 (0 connections now open)
+2021-04-09T12:59:19.661+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60724 #56 (1 connection now open)
+2021-04-09T12:59:19.665+0530 I ACCESS   [conn56] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60724 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:19.667+0530 I ERROR  [conn56] end connection 127.0.0.1:60724 (0 connections now open)
+2021-04-09T12:59:20.168+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60726 #57 (1 connection now open)
+2021-04-09T12:59:20.172+0530 I ACCESS   [conn57] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60726 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:20.174+0530 I ERROR  [conn57] end connection 127.0.0.1:60726 (0 connections now open)
+2021-04-09T12:59:20.675+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60728 #58 (1 connection now open)
+2021-04-09T12:59:20.679+0530 I ACCESS   [conn58] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60728 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:20.681+0530 I ERROR  [conn58] end connection 127.0.0.1:60728 (0 connections now open)
+2021-04-09T12:59:21.182+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60730 #59 (1 connection now open)
+2021-04-09T12:59:21.186+0530 I ACCESS   [conn59] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60730 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:21.189+0530 I ERROR  [conn59] end connection 127.0.0.1:60730 (0 connections now open)
+2021-04-09T12:59:21.690+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60732 #60 (1 connection now open)
+2021-04-09T12:59:21.694+0530 I ACCESS   [conn60] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60732 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:21.694+0530 I ERROR  [conn60] end connection 127.0.0.1:60732 (0 connections now open)
+2021-04-09T12:59:22.195+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60734 #61 (1 connection now open)
+2021-04-09T12:59:22.199+0530 I ACCESS   [conn61] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60734 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:22.200+0530 I ERROR  [conn61] end connection 127.0.0.1:60734 (0 connections now open)
+2021-04-09T12:59:22.702+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60736 #62 (1 connection now open)
+2021-04-09T12:59:22.705+0530 I ACCESS   [conn62] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60736 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:22.707+0530 I ERROR  [conn62] end connection 127.0.0.1:60736 (0 connections now open)
+2021-04-09T12:59:23.207+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60738 #63 (1 connection now open)
+2021-04-09T12:59:23.211+0530 I ACCESS   [conn63] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60738 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:23.213+0530 I ERROR  [conn63] end connection 127.0.0.1:60738 (0 connections now open)
+2021-04-09T12:59:23.714+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60740 #64 (1 connection now open)
+2021-04-09T12:59:23.718+0530 I ACCESS   [conn64] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60740 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:23.719+0530 I ERROR  [conn64] end connection 127.0.0.1:60740 (0 connections now open)
+2021-04-09T12:59:24.220+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60742 #65 (1 connection now open)
+2021-04-09T12:59:24.222+0530 I ACCESS   [conn65] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60742 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:24.222+0530 I ERROR  [conn65] end connection 127.0.0.1:60742 (0 connections now open)
+2021-04-09T12:59:34.224+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60744 #66 (1 connection now open)
+2021-04-09T12:59:34.227+0530 I ACCESS   [conn66] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60744 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:34.228+0530 I ERROR  [conn66] end connection 127.0.0.1:60744 (0 connections now open)
+2021-04-09T12:59:44.230+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60748 #67 (1 connection now open)
+2021-04-09T12:59:44.231+0530 I ACCESS   [conn67] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60748 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:44.232+0530 I ERROR  [conn67] end connection 127.0.0.1:60748 (0 connections now open)
+2021-04-09T12:59:54.234+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60750 #68 (1 connection now open)
+2021-04-09T12:59:54.237+0530 I ACCESS   [conn68] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60750 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T12:59:54.238+0530 I ERROR  [conn68] end connection 127.0.0.1:60750 (0 connections now open)
+2021-04-09T13:00:04.239+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60752 #69 (1 connection now open)
+2021-04-09T13:00:04.242+0530 I ACCESS   [conn69] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60752 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:00:04.244+0530 I ERROR  [conn69] end connection 127.0.0.1:60752 (0 connections now open)
+2021-04-09T13:00:14.245+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60762 #70 (1 connection now open)
+2021-04-09T13:00:14.249+0530 I ACCESS   [conn70] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60762 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:00:14.250+0530 I ERROR  [conn70] end connection 127.0.0.1:60762 (0 connections now open)
+2021-04-09T13:00:24.252+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60768 #71 (1 connection now open)
+2021-04-09T13:00:24.256+0530 I ACCESS   [conn71] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60768 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:00:24.257+0530 I ERROR  [conn71] end connection 127.0.0.1:60768 (0 connections now open)
+2021-04-09T13:00:34.259+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60770 #72 (1 connection now open)
+2021-04-09T13:00:34.262+0530 I ACCESS   [conn72] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60770 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:00:34.263+0530 I ERROR  [conn72] end connection 127.0.0.1:60770 (0 connections now open)
+2021-04-09T13:00:44.264+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60772 #73 (1 connection now open)
+2021-04-09T13:00:44.266+0530 I ACCESS   [conn73] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60772 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:00:44.268+0530 I ERROR  [conn73] end connection 127.0.0.1:60772 (0 connections now open)
+2021-04-09T13:00:54.269+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60776 #74 (1 connection now open)
+2021-04-09T13:00:54.272+0530 I ACCESS   [conn74] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60776 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:00:54.273+0530 I ERROR  [conn74] end connection 127.0.0.1:60776 (0 connections now open)
+2021-04-09T13:01:04.274+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60778 #75 (1 connection now open)
+2021-04-09T13:01:04.276+0530 I ACCESS   [conn75] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60778 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:01:04.276+0530 I ERROR  [conn75] end connection 127.0.0.1:60778 (0 connections now open)
+2021-04-09T13:01:14.277+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60780 #76 (1 connection now open)
+2021-04-09T13:01:14.278+0530 I ACCESS   [conn76] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60780 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:01:14.279+0530 I ERROR  [conn76] end connection 127.0.0.1:60780 (0 connections now open)
+2021-04-09T13:01:24.280+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60784 #77 (1 connection now open)
+2021-04-09T13:01:24.283+0530 I ACCESS   [conn77] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60784 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:01:24.284+0530 I ERROR  [conn77] end connection 127.0.0.1:60784 (0 connections now open)
+2021-04-09T13:01:34.285+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60786 #78 (1 connection now open)
+2021-04-09T13:01:34.288+0530 I ACCESS   [conn78] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60786 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:01:34.289+0530 I ERROR  [conn78] end connection 127.0.0.1:60786 (0 connections now open)
+2021-04-09T13:01:44.291+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60788 #79 (1 connection now open)
+2021-04-09T13:01:44.294+0530 I ACCESS   [conn79] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60788 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:01:44.296+0530 I ERROR  [conn79] end connection 127.0.0.1:60788 (0 connections now open)
+2021-04-09T13:01:54.297+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60790 #80 (1 connection now open)
+2021-04-09T13:01:54.299+0530 I ACCESS   [conn80] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60790 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:01:54.300+0530 I ERROR  [conn80] end connection 127.0.0.1:60790 (0 connections now open)
+2021-04-09T13:02:04.301+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60792 #81 (1 connection now open)
+2021-04-09T13:02:04.302+0530 I ACCESS   [conn81] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60792 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:02:04.303+0530 I ERROR  [conn81] end connection 127.0.0.1:60792 (0 connections now open)
+2021-04-09T13:02:14.304+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60794 #82 (1 connection now open)
+2021-04-09T13:02:14.308+0530 I ACCESS   [conn82] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60794 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:02:14.309+0530 I ERROR  [conn82] end connection 127.0.0.1:60794 (0 connections now open)
+2021-04-09T13:02:24.311+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60798 #83 (1 connection now open)
+2021-04-09T13:02:24.313+0530 I ACCESS   [conn83] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60798 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:02:24.314+0530 I ERROR  [conn83] end connection 127.0.0.1:60798 (0 connections now open)
+2021-04-09T13:02:34.316+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60802 #84 (1 connection now open)
+2021-04-09T13:02:34.320+0530 I ACCESS   [conn84] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60802 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:02:34.322+0530 I ERROR  [conn84] end connection 127.0.0.1:60802 (0 connections now open)
+2021-04-09T13:02:44.323+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60804 #85 (1 connection now open)
+2021-04-09T13:02:44.327+0530 I ACCESS   [conn85] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60804 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:02:44.329+0530 I ERROR  [conn85] end connection 127.0.0.1:60804 (0 connections now open)
+2021-04-09T13:03:20.416+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60830 #86 (1 connection now open)
+2021-04-09T13:03:20.444+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60832 #87 (2 connections now open)
+2021-04-09T13:03:20.545+0530 I ACCESS   [conn87] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60832 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:03:20.546+0530 I ACCESS   [conn86] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60830 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:03:20.551+0530 I ERROR  [conn87] end connection 127.0.0.1:60832 (1 connection now open)
+2021-04-09T13:03:20.562+0530 I ERROR  [conn86] end connection 127.0.0.1:60830 (0 connections now open)
+2021-04-09T13:03:55.086+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60838 #88 (1 connection now open)
+2021-04-09T13:03:55.101+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60840 #89 (2 connections now open)
+2021-04-09T13:03:55.138+0530 I ACCESS   [conn88] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60838 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:03:55.143+0530 I ACCESS   [conn89] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60840 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:03:55.145+0530 I ERROR  [conn88] end connection 127.0.0.1:60838 (1 connection now open)
+2021-04-09T13:03:55.146+0530 I ERROR  [conn89] end connection 127.0.0.1:60840 (0 connections now open)
+2021-04-09T13:04:05.164+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60842 #90 (1 connection now open)
+2021-04-09T13:04:05.169+0530 I ACCESS   [conn90] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60842 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:04:05.170+0530 I ERROR  [conn90] end connection 127.0.0.1:60842 (0 connections now open)
+2021-04-09T13:04:15.171+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60844 #91 (1 connection now open)
+2021-04-09T13:04:15.177+0530 I ACCESS   [conn91] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60844 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:04:15.178+0530 I ERROR  [conn91] end connection 127.0.0.1:60844 (0 connections now open)
+2021-04-09T13:04:25.181+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60846 #92 (1 connection now open)
+2021-04-09T13:04:25.188+0530 I ACCESS   [conn92] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60846 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:04:25.188+0530 I ERROR  [conn92] end connection 127.0.0.1:60846 (0 connections now open)
+2021-04-09T13:04:35.190+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60848 #93 (1 connection now open)
+2021-04-09T13:04:35.195+0530 I ACCESS   [conn93] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60848 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:04:35.197+0530 I ERROR  [conn93] end connection 127.0.0.1:60848 (0 connections now open)
+2021-04-09T13:04:45.198+0530 I ERROR  [listener] connection accepted from 127.0.0.1:60850 #94 (1 connection now open)
+2021-04-09T13:04:45.204+0530 I ACCESS   [conn94] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:60850 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:04:45.206+0530 I ERROR  [conn94] end connection 127.0.0.1:60850 (0 connections now open)
+2021-04-09T13:08:01.829+0530 I ERROR  [listener] connection accepted from 127.0.0.1:33828 #95 (1 connection now open)
+2021-04-09T13:08:01.859+0530 I ERROR  [conn95] received client metadata from 127.0.0.1:33828 conn95: { driver: { name: "mongo-java-driver|legacy", version: "3.12.7-s3t" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "5.4.0-70-generic" }, platform: "Java/AdoptOpenJDK/11.0.8+10" }
+2021-04-09T13:08:01.986+0530 I ERROR  [listener] connection accepted from 127.0.0.1:33830 #96 (2 connections now open)
+2021-04-09T13:08:01.989+0530 I ERROR  [conn96] received client metadata from 127.0.0.1:33830 conn96: { driver: { name: "mongo-java-driver|legacy", version: "3.12.7-s3t" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "5.4.0-70-generic" }, platform: "Java/AdoptOpenJDK/11.0.8+10" }
+2021-04-09T13:08:02.000+0530 I ACCESS   [conn96] SASL SCRAM-SHA-256 authentication failed for saikat on saikat from client 127.0.0.1:33830 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:08:02.007+0530 I ERROR  [conn96] end connection 127.0.0.1:33830 (1 connection now open)
+2021-04-09T13:08:02.133+0530 I ERROR  [listener] connection accepted from 127.0.0.1:33832 #97 (2 connections now open)
+2021-04-09T13:08:02.134+0530 I ERROR  [conn97] received client metadata from 127.0.0.1:33832 conn97: { driver: { name: "mongo-java-driver|legacy", version: "3.12.7-s3t" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "5.4.0-70-generic" }, platform: "Java/AdoptOpenJDK/11.0.8+10" }
+2021-04-09T13:08:02.136+0530 I ACCESS   [conn97] SASL SCRAM-SHA-256 authentication failed for saikat on saikat from client 127.0.0.1:33832 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:08:02.137+0530 I ERROR  [conn97] end connection 127.0.0.1:33832 (1 connection now open)
+2021-04-09T13:08:02.138+0530 I ERROR  [conn95] end connection 127.0.0.1:33828 (0 connections now open)
+2021-04-09T13:08:22.643+0530 I ERROR  [listener] connection accepted from 127.0.0.1:33996 #98 (1 connection now open)
+2021-04-09T13:08:22.644+0530 I ERROR  [conn98] received client metadata from 127.0.0.1:33996 conn98: { driver: { name: "mongo-java-driver|legacy", version: "3.12.7-s3t" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "5.4.0-70-generic" }, platform: "Java/AdoptOpenJDK/11.0.8+10" }
+2021-04-09T13:08:22.651+0530 I ERROR  [listener] connection accepted from 127.0.0.1:33998 #99 (2 connections now open)
+2021-04-09T13:08:22.652+0530 I ERROR  [conn99] received client metadata from 127.0.0.1:33998 conn99: { driver: { name: "mongo-java-driver|legacy", version: "3.12.7-s3t" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "5.4.0-70-generic" }, platform: "Java/AdoptOpenJDK/11.0.8+10" }
+2021-04-09T13:08:22.654+0530 I ACCESS   [conn99] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:33998 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:08:22.656+0530 I ERROR  [conn99] end connection 127.0.0.1:33998 (1 connection now open)
+2021-04-09T13:08:22.658+0530 I ERROR  [listener] connection accepted from 127.0.0.1:34000 #100 (2 connections now open)
+2021-04-09T13:08:22.659+0530 I ERROR  [conn100] received client metadata from 127.0.0.1:34000 conn100: { driver: { name: "mongo-java-driver|legacy", version: "3.12.7-s3t" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "5.4.0-70-generic" }, platform: "Java/AdoptOpenJDK/11.0.8+10" }
+2021-04-09T13:08:22.661+0530 I ACCESS   [conn100] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:34000 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:08:22.662+0530 I ERROR  [conn100] end connection 127.0.0.1:34000 (1 connection now open)
+2021-04-09T13:08:22.663+0530 I ERROR  [conn98] end connection 127.0.0.1:33996 (0 connections now open)
+2021-04-09T13:08:42.141+0530 I ERROR  [listener] connection accepted from 127.0.0.1:34164 #101 (1 connection now open)
+2021-04-09T13:08:42.141+0530 I ERROR  [conn101] received client metadata from 127.0.0.1:34164 conn101: { driver: { name: "mongo-java-driver|legacy", version: "3.12.7-s3t" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "5.4.0-70-generic" }, platform: "Java/AdoptOpenJDK/11.0.8+10" }
+2021-04-09T13:08:42.148+0530 I ERROR  [listener] connection accepted from 127.0.0.1:34166 #102 (2 connections now open)
+2021-04-09T13:08:42.149+0530 I ERROR  [conn102] received client metadata from 127.0.0.1:34166 conn102: { driver: { name: "mongo-java-driver|legacy", version: "3.12.7-s3t" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "5.4.0-70-generic" }, platform: "Java/AdoptOpenJDK/11.0.8+10" }
+2021-04-09T13:08:42.150+0530 I ACCESS   [conn102] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:34166 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:08:42.151+0530 I ERROR  [conn102] end connection 127.0.0.1:34166 (1 connection now open)
+2021-04-09T13:08:42.152+0530 I ERROR  [listener] connection accepted from 127.0.0.1:34168 #103 (2 connections now open)
+2021-04-09T13:08:42.152+0530 I ERROR  [conn103] received client metadata from 127.0.0.1:34168 conn103: { driver: { name: "mongo-java-driver|legacy", version: "3.12.7-s3t" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "5.4.0-70-generic" }, platform: "Java/AdoptOpenJDK/11.0.8+10" }
+2021-04-09T13:08:42.154+0530 I ACCESS   [conn103] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:34168 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:08:42.155+0530 I ERROR  [conn103] end connection 127.0.0.1:34168 (1 connection now open)
+2021-04-09T13:08:42.156+0530 I ERROR  [conn101] end connection 127.0.0.1:34164 (0 connections now open)
+2021-04-09T13:10:16.892+0530 I ERROR  [listener] connection accepted from 127.0.0.1:34930 #104 (1 connection now open)
+2021-04-09T13:10:16.892+0530 I ERROR  [conn104] received client metadata from 127.0.0.1:34930 conn104: { driver: { name: "mongo-java-driver|legacy", version: "3.12.7-s3t" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "5.4.0-70-generic" }, platform: "Java/AdoptOpenJDK/11.0.8+10" }
+2021-04-09T13:10:16.898+0530 I ERROR  [listener] connection accepted from 127.0.0.1:34932 #105 (2 connections now open)
+2021-04-09T13:10:16.899+0530 I ERROR  [conn105] received client metadata from 127.0.0.1:34932 conn105: { driver: { name: "mongo-java-driver|legacy", version: "3.12.7-s3t" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "5.4.0-70-generic" }, platform: "Java/AdoptOpenJDK/11.0.8+10" }
+2021-04-09T13:10:16.900+0530 I ACCESS   [conn105] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:34932 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:10:16.901+0530 I ERROR  [conn105] end connection 127.0.0.1:34932 (1 connection now open)
+2021-04-09T13:10:16.902+0530 I ERROR  [listener] connection accepted from 127.0.0.1:34934 #106 (2 connections now open)
+2021-04-09T13:10:16.903+0530 I ERROR  [conn106] received client metadata from 127.0.0.1:34934 conn106: { driver: { name: "mongo-java-driver|legacy", version: "3.12.7-s3t" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "5.4.0-70-generic" }, platform: "Java/AdoptOpenJDK/11.0.8+10" }
+2021-04-09T13:10:16.904+0530 I ACCESS   [conn106] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:34934 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:10:16.905+0530 I ERROR  [conn106] end connection 127.0.0.1:34934 (1 connection now open)
+2021-04-09T13:10:16.905+0530 I ERROR  [conn104] end connection 127.0.0.1:34930 (0 connections now open)
+2021-04-09T13:11:08.472+0530 I ERROR  [listener] connection accepted from 127.0.0.1:35362 #107 (1 connection now open)
+2021-04-09T13:11:08.473+0530 I ERROR  [conn107] received client metadata from 127.0.0.1:35362 conn107: { driver: { name: "mongo-java-driver|legacy", version: "3.12.7-s3t" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "5.4.0-70-generic" }, platform: "Java/AdoptOpenJDK/11.0.8+10" }
+2021-04-09T13:11:08.477+0530 I ERROR  [listener] connection accepted from 127.0.0.1:35364 #108 (2 connections now open)
+2021-04-09T13:11:08.477+0530 I ERROR  [conn108] received client metadata from 127.0.0.1:35364 conn108: { driver: { name: "mongo-java-driver|legacy", version: "3.12.7-s3t" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "5.4.0-70-generic" }, platform: "Java/AdoptOpenJDK/11.0.8+10" }
+2021-04-09T13:11:08.479+0530 I ACCESS   [conn108] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:35364 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:11:08.479+0530 I ERROR  [conn108] end connection 127.0.0.1:35364 (1 connection now open)
+2021-04-09T13:11:08.481+0530 I ERROR  [listener] connection accepted from 127.0.0.1:35366 #109 (2 connections now open)
+2021-04-09T13:11:08.481+0530 I ERROR  [conn109] received client metadata from 127.0.0.1:35366 conn109: { driver: { name: "mongo-java-driver|legacy", version: "3.12.7-s3t" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "5.4.0-70-generic" }, platform: "Java/AdoptOpenJDK/11.0.8+10" }
+2021-04-09T13:11:08.483+0530 I ACCESS   [conn109] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:35366 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:11:08.484+0530 I ERROR  [conn109] end connection 127.0.0.1:35366 (1 connection now open)
+2021-04-09T13:11:08.485+0530 I ERROR  [conn107] end connection 127.0.0.1:35362 (0 connections now open)
+2021-04-09T13:22:20.049+0530 I CONTROL  [main] ***** SERVER RESTARTED *****
+2021-04-09T13:22:20.091+0530 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2021-04-09T13:22:20.192+0530 I CONTROL  [initandlisten] MongoDB starting : pid=22613 port=27017 dbpath=/home/avanseus/mongoDBPATH/ 64-bit host=avanseus-ThinkPad-E470
+2021-04-09T13:22:20.192+0530 I CONTROL  [initandlisten] db version v4.0.23
+2021-04-09T13:22:20.192+0530 I CONTROL  [initandlisten] git version: 07c6611b38d2aacbdb1846b688db70b3273170fb
+2021-04-09T13:22:20.192+0530 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.1  11 Sep 2018
+2021-04-09T13:22:20.193+0530 I CONTROL  [initandlisten] allocator: tcmalloc
+2021-04-09T13:22:20.193+0530 I CONTROL  [initandlisten] modules: none
+2021-04-09T13:22:20.193+0530 I CONTROL  [initandlisten] build environment:
+2021-04-09T13:22:20.193+0530 I CONTROL  [initandlisten]     distmod: ubuntu1804
+2021-04-09T13:22:20.193+0530 I CONTROL  [initandlisten]     distarch: x86_64
+2021-04-09T13:22:20.193+0530 I CONTROL  [initandlisten]     target_arch: x86_64
+2021-04-09T13:22:20.193+0530 I CONTROL  [initandlisten] options: { config: "/home/avanseus/Downloads/mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, processManagement: { fork: true, pidFilePath: "/home/avanseus/mongoDBPATH/mongod.pid" }, storage: { dbPath: "/home/avanseus/mongoDBPATH/", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "/home/avanseus/mongoLOGS/mongod.log" } }
+2021-04-09T13:22:20.205+0530 E STORAGE  [initandlisten] Failed to set up listener: SocketException: Address already in use
+2021-04-09T13:22:20.205+0530 I REPL     [initandlisten] Stepping down the ReplicationCoordinator for shutdown, waitTime: 10000ms
+2021-04-09T13:22:20.206+0530 I ERROR  [initandlisten] Shutting down the global connection pool
+2021-04-09T13:22:20.206+0530 I -        [initandlisten] Killing all operations for shutdown
+2021-04-09T13:22:20.206+0530 I ERROR  [initandlisten] Shutting down the ReplicaSetMonitor
+2021-04-09T13:22:20.206+0530 I CONTROL  [initandlisten] Shutting down free monitoring
+2021-04-09T13:22:20.206+0530 I FTDC     [initandlisten] Shutting down full-time data capture
+2021-04-09T13:22:20.206+0530 I STORAGE  [initandlisten] Shutting down the HealthLog
+2021-04-09T13:22:20.206+0530 I -        [initandlisten] Dropping the scope cache for shutdown
+2021-04-09T13:22:20.206+0530 I CONTROL  [initandlisten] now exiting
+2021-04-09T13:22:20.206+0530 I CONTROL  [initandlisten] shutting down with code:48
+2021-04-09T13:23:16.801+0530 I CONTROL  [main] ***** SERVER RESTARTED *****
+2021-04-09T13:23:16.803+0530 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2021-04-09T13:23:16.807+0530 I CONTROL  [initandlisten] MongoDB starting : pid=22637 port=27017 dbpath=/home/avanseus/mongoDBPATH/ 64-bit host=avanseus-ThinkPad-E470
+2021-04-09T13:23:16.807+0530 I CONTROL  [initandlisten] db version v4.0.23
+2021-04-09T13:23:16.807+0530 I CONTROL  [initandlisten] git version: 07c6611b38d2aacbdb1846b688db70b3273170fb
+2021-04-09T13:23:16.807+0530 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.1  11 Sep 2018
+2021-04-09T13:23:16.807+0530 I CONTROL  [initandlisten] allocator: tcmalloc
+2021-04-09T13:23:16.807+0530 I CONTROL  [initandlisten] modules: none
+2021-04-09T13:23:16.807+0530 I CONTROL  [initandlisten] build environment:
+2021-04-09T13:23:16.807+0530 I CONTROL  [initandlisten]     distmod: ubuntu1804
+2021-04-09T13:23:16.807+0530 I CONTROL  [initandlisten]     distarch: x86_64
+2021-04-09T13:23:16.807+0530 I CONTROL  [initandlisten]     target_arch: x86_64
+2021-04-09T13:23:16.807+0530 I CONTROL  [initandlisten] options: { config: "/home/avanseus/Downloads/mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, processManagement: { fork: true, pidFilePath: "/home/avanseus/mongoDBPATH/mongod.pid" }, storage: { dbPath: "/home/avanseus/mongoDBPATH/", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "/home/avanseus/mongoLOGS/mongod.log" } }
+2021-04-09T13:23:16.807+0530 W STORAGE  [initandlisten] Detected unclean shutdown - /home/avanseus/mongoDBPATH/mongod.lock is not empty.
+2021-04-09T13:23:16.807+0530 I STORAGE  [initandlisten] Detected data files in /home/avanseus/mongoDBPATH/ created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2021-04-09T13:23:16.807+0530 W STORAGE  [initandlisten] Recovering data from the last clean checkpoint.
+2021-04-09T13:23:16.807+0530 I STORAGE  [initandlisten] 
+2021-04-09T13:23:16.807+0530 I WARNING  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+2021-04-09T13:23:16.807+0530 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+2021-04-09T13:23:16.874+0530 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3420M,cache_overflow=(file_max=0M),session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2021-04-09T13:23:17.748+0530 I STORAGE  [initandlisten] WiredTiger message [1617954797:748507][22637:0x7f6ca7bc6a40], txn-recover: Main recovery loop: starting at 1/22272 to 2/256
+2021-04-09T13:23:17.814+0530 I STORAGE  [initandlisten] WiredTiger message [1617954797:814942][22637:0x7f6ca7bc6a40], txn-recover: Recovering log 1 through 2
+2021-04-09T13:23:17.896+0530 I STORAGE  [initandlisten] WiredTiger message [1617954797:896721][22637:0x7f6ca7bc6a40], txn-recover: Recovering log 2 through 2
+2021-04-09T13:23:17.932+0530 I STORAGE  [initandlisten] WiredTiger message [1617954797:932583][22637:0x7f6ca7bc6a40], txn-recover: Set global recovery timestamp: 0
+2021-04-09T13:23:18.285+0530 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2021-04-09T13:23:18.288+0530 I STORAGE  [initandlisten] Starting to check the table logging settings for existing WiredTiger tables
+2021-04-09T13:23:18.375+0530 I CONTROL  [initandlisten] 
+2021-04-09T13:23:18.375+0530 I WARNING  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2021-04-09T13:23:18.375+0530 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2021-04-09T13:23:18.376+0530 I CONTROL  [initandlisten] 
+2021-04-09T13:23:18.496+0530 I SHARDING [initandlisten] Marking collection local.system.replset as collection version: <unsharded>
+2021-04-09T13:23:18.520+0530 I STORAGE  [initandlisten] Finished adjusting the table logging settings for existing WiredTiger tables
+2021-04-09T13:23:18.520+0530 I SHARDING [initandlisten] Marking collection admin.system.roles as collection version: <unsharded>
+2021-04-09T13:23:18.520+0530 I SHARDING [initandlisten] Marking collection admin.system.version as collection version: <unsharded>
+2021-04-09T13:23:18.525+0530 I SHARDING [initandlisten] Marking collection local.startup_log as collection version: <unsharded>
+2021-04-09T13:23:18.537+0530 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/home/avanseus/mongoDBPATH/diagnostic.data'
+2021-04-09T13:23:18.571+0530 I SHARDING [initandlisten] Marking collection config.system.sessions as collection version: <unsharded>
+2021-04-09T13:23:18.576+0530 I SHARDING [LogicalSessionCacheReap] Marking collection config.transactions as collection version: <unsharded>
+2021-04-09T13:23:18.576+0530 I ERROR  [initandlisten] waiting for connections on port 27017
+2021-04-09T13:23:19.018+0530 I FTDC     [ftdc] Unclean full-time diagnostic data capture shutdown detected, found interim file, some metrics may have been lost. OK
+2021-04-09T13:23:19.069+0530 I SHARDING [ftdc] Marking collection local.oplog.rs as collection version: <unsharded>
+2021-04-09T13:25:28.432+0530 I ERROR  [listener] connection accepted from 127.0.0.1:42926 #1 (1 connection now open)
+2021-04-09T13:25:28.446+0530 I ERROR  [listener] connection accepted from 127.0.0.1:42928 #2 (2 connections now open)
+2021-04-09T13:25:28.478+0530 I SHARDING [conn2] Marking collection admin.system.users as collection version: <unsharded>
+2021-04-09T13:25:28.478+0530 I ACCESS   [conn2] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:42928 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:25:28.480+0530 I ACCESS   [conn1] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:42926 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:25:28.510+0530 I ERROR  [conn1] end connection 127.0.0.1:42926 (1 connection now open)
+2021-04-09T13:25:28.513+0530 I ERROR  [conn2] end connection 127.0.0.1:42928 (0 connections now open)
+2021-04-09T13:25:38.522+0530 I ERROR  [listener] connection accepted from 127.0.0.1:43010 #3 (1 connection now open)
+2021-04-09T13:25:38.528+0530 I ACCESS   [conn3] SASL SCRAM-SHA-1 authentication failed for saikat on saikat from client 127.0.0.1:43010 ; UserNotFound: Could not find user saikat@saikat
+2021-04-09T13:25:38.530+0530 I ERROR  [conn3] end connection 127.0.0.1:43010 (0 connections now open)
+2021-04-09T13:33:52.367+0530 I CONTROL  [main] ***** SERVER RESTARTED *****
+2021-04-09T13:33:52.572+0530 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2021-04-09T13:33:52.651+0530 I CONTROL  [initandlisten] MongoDB starting : pid=3290 port=27017 dbpath=/home/avanseus/mongoDBPATH/ 64-bit host=avanseus-ThinkPad-E470
+2021-04-09T13:33:52.651+0530 I CONTROL  [initandlisten] db version v4.0.23
+2021-04-09T13:33:52.651+0530 I CONTROL  [initandlisten] git version: 07c6611b38d2aacbdb1846b688db70b3273170fb
+2021-04-09T13:33:52.651+0530 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.1  11 Sep 2018
+2021-04-09T13:33:52.651+0530 I CONTROL  [initandlisten] allocator: tcmalloc
+2021-04-09T13:33:52.651+0530 I CONTROL  [initandlisten] modules: none
+2021-04-09T13:33:52.651+0530 I CONTROL  [initandlisten] build environment:
+2021-04-09T13:33:52.651+0530 I CONTROL  [initandlisten]     distmod: ubuntu1804
+2021-04-09T13:33:52.651+0530 I CONTROL  [initandlisten]     distarch: x86_64
+2021-04-09T13:33:52.651+0530 I CONTROL  [initandlisten]     target_arch: x86_64
+2021-04-09T13:33:52.651+0530 I CONTROL  [initandlisten] options: { config: "/home/avanseus/Downloads/mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, processManagement: { fork: true, pidFilePath: "/home/avanseus/mongoDBPATH/mongod.pid" }, storage: { dbPath: "/home/avanseus/mongoDBPATH/", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "/home/avanseus/mongoLOGS/mongod.log" } }
+2021-04-09T13:33:52.685+0530 E ERROR  [initandlisten] Failed to unlink socket file /tmp/mongodb-27017.sock Operation not permitted
+2021-04-09T13:33:52.685+0530 F -        [initandlisten] Fatal Assertion 40486 at src/mongo/transport/transport_layer_asio.cpp 693
+2021-04-09T13:33:52.685+0530 F -        [initandlisten] \n\n***aborting after fassert() failure\n\n

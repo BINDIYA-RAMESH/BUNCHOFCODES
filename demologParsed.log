@@ -1,0 +1,502 @@
+ERROR  -    [initandlisten] Failed to unlink socket file /tmp/mongodb-27017.sock Operation not permitted
+
+ERROR  -    [initandlisten] Shutting down the global connection pool
+
+ERROR  -    [initandlisten] Shutting down the ReplicaSetMonitor
+
+WARNING  -  : Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+
+WARNING  -  : Access control is not enabled for the database.
+
+ERROR  -    [initandlisten] waiting for connections on port 27017
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:57752 #1 (1 connection now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:57750 #2 (2 connections now open)
+
+ERROR  -    [conn2] end connection 127.0.0.1:57750 (1 connection now open)
+
+ERROR  -    [conn1] end connection 127.0.0.1:57752 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60618 #3 (1 connection now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60620 #4 (2 connections now open)
+
+ERROR  -    [conn4] end connection 127.0.0.1:60620 (1 connection now open)
+
+ERROR  -    [conn3] end connection 127.0.0.1:60618 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60622 #5 (1 connection now open)
+
+ERROR  -    [conn5] end connection 127.0.0.1:60622 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60624 #6 (1 connection now open)
+
+ERROR  -    [conn6] end connection 127.0.0.1:60624 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60626 #7 (1 connection now open)
+
+ERROR  -    [conn7] end connection 127.0.0.1:60626 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60628 #8 (1 connection now open)
+
+ERROR  -    [conn8] end connection 127.0.0.1:60628 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60630 #9 (1 connection now open)
+
+ERROR  -    [conn9] end connection 127.0.0.1:60630 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60632 #10 (1 connection now open)
+
+ERROR  -    [conn10] end connection 127.0.0.1:60632 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60634 #11 (1 connection now open)
+
+ERROR  -    [conn11] end connection 127.0.0.1:60634 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60636 #12 (1 connection now open)
+
+ERROR  -    [conn12] end connection 127.0.0.1:60636 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60638 #13 (1 connection now open)
+
+ERROR  -    [conn13] end connection 127.0.0.1:60638 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60640 #14 (1 connection now open)
+
+ERROR  -    [conn14] end connection 127.0.0.1:60640 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60642 #15 (1 connection now open)
+
+ERROR  -    [conn15] end connection 127.0.0.1:60642 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60644 #16 (1 connection now open)
+
+ERROR  -    [conn16] end connection 127.0.0.1:60644 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60646 #17 (1 connection now open)
+
+ERROR  -    [conn17] end connection 127.0.0.1:60646 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60648 #18 (1 connection now open)
+
+ERROR  -    [conn18] end connection 127.0.0.1:60648 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60650 #19 (1 connection now open)
+
+ERROR  -    [conn19] end connection 127.0.0.1:60650 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60652 #20 (1 connection now open)
+
+ERROR  -    [conn20] end connection 127.0.0.1:60652 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60654 #21 (1 connection now open)
+
+ERROR  -    [conn21] end connection 127.0.0.1:60654 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60656 #22 (1 connection now open)
+
+ERROR  -    [conn22] end connection 127.0.0.1:60656 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60658 #23 (1 connection now open)
+
+ERROR  -    [conn23] end connection 127.0.0.1:60658 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60660 #24 (1 connection now open)
+
+ERROR  -    [conn24] end connection 127.0.0.1:60660 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60662 #25 (1 connection now open)
+
+ERROR  -    [conn25] end connection 127.0.0.1:60662 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60664 #26 (1 connection now open)
+
+ERROR  -    [conn26] end connection 127.0.0.1:60664 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60666 #27 (1 connection now open)
+
+ERROR  -    [conn27] end connection 127.0.0.1:60666 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60668 #28 (1 connection now open)
+
+ERROR  -    [conn28] end connection 127.0.0.1:60668 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60670 #29 (1 connection now open)
+
+ERROR  -    [conn29] end connection 127.0.0.1:60670 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60672 #30 (1 connection now open)
+
+ERROR  -    [conn30] end connection 127.0.0.1:60672 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60674 #31 (1 connection now open)
+
+ERROR  -    [conn31] end connection 127.0.0.1:60674 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60676 #32 (1 connection now open)
+
+ERROR  -    [conn32] end connection 127.0.0.1:60676 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60678 #33 (1 connection now open)
+
+ERROR  -    [conn33] end connection 127.0.0.1:60678 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60680 #34 (1 connection now open)
+
+ERROR  -    [conn34] end connection 127.0.0.1:60680 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60682 #35 (1 connection now open)
+
+ERROR  -    [conn35] end connection 127.0.0.1:60682 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60684 #36 (1 connection now open)
+
+ERROR  -    [conn36] end connection 127.0.0.1:60684 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60686 #37 (1 connection now open)
+
+ERROR  -    [conn37] end connection 127.0.0.1:60686 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60688 #38 (1 connection now open)
+
+ERROR  -    [conn38] end connection 127.0.0.1:60688 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60690 #39 (1 connection now open)
+
+ERROR  -    [conn39] end connection 127.0.0.1:60690 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60692 #40 (1 connection now open)
+
+ERROR  -    [conn40] end connection 127.0.0.1:60692 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60694 #41 (1 connection now open)
+
+ERROR  -    [conn41] end connection 127.0.0.1:60694 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60696 #42 (1 connection now open)
+
+ERROR  -    [conn42] end connection 127.0.0.1:60696 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60698 #43 (1 connection now open)
+
+ERROR  -    [conn43] end connection 127.0.0.1:60698 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60700 #44 (1 connection now open)
+
+ERROR  -    [conn44] end connection 127.0.0.1:60700 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60702 #45 (1 connection now open)
+
+ERROR  -    [conn45] end connection 127.0.0.1:60702 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60704 #46 (1 connection now open)
+
+ERROR  -    [conn46] end connection 127.0.0.1:60704 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60706 #47 (1 connection now open)
+
+ERROR  -    [conn47] end connection 127.0.0.1:60706 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60708 #48 (1 connection now open)
+
+ERROR  -    [conn48] end connection 127.0.0.1:60708 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60710 #49 (1 connection now open)
+
+ERROR  -    [conn49] end connection 127.0.0.1:60710 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60712 #50 (1 connection now open)
+
+ERROR  -    [conn50] end connection 127.0.0.1:60712 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60714 #51 (1 connection now open)
+
+ERROR  -    [conn51] end connection 127.0.0.1:60714 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60716 #52 (1 connection now open)
+
+ERROR  -    [conn52] end connection 127.0.0.1:60716 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60718 #53 (1 connection now open)
+
+ERROR  -    [conn53] end connection 127.0.0.1:60718 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60720 #54 (1 connection now open)
+
+ERROR  -    [conn54] end connection 127.0.0.1:60720 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60722 #55 (1 connection now open)
+
+ERROR  -    [conn55] end connection 127.0.0.1:60722 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60724 #56 (1 connection now open)
+
+ERROR  -    [conn56] end connection 127.0.0.1:60724 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60726 #57 (1 connection now open)
+
+ERROR  -    [conn57] end connection 127.0.0.1:60726 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60728 #58 (1 connection now open)
+
+ERROR  -    [conn58] end connection 127.0.0.1:60728 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60730 #59 (1 connection now open)
+
+ERROR  -    [conn59] end connection 127.0.0.1:60730 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60732 #60 (1 connection now open)
+
+ERROR  -    [conn60] end connection 127.0.0.1:60732 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60734 #61 (1 connection now open)
+
+ERROR  -    [conn61] end connection 127.0.0.1:60734 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60736 #62 (1 connection now open)
+
+ERROR  -    [conn62] end connection 127.0.0.1:60736 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60738 #63 (1 connection now open)
+
+ERROR  -    [conn63] end connection 127.0.0.1:60738 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60740 #64 (1 connection now open)
+
+ERROR  -    [conn64] end connection 127.0.0.1:60740 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60742 #65 (1 connection now open)
+
+ERROR  -    [conn65] end connection 127.0.0.1:60742 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60744 #66 (1 connection now open)
+
+ERROR  -    [conn66] end connection 127.0.0.1:60744 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60748 #67 (1 connection now open)
+
+ERROR  -    [conn67] end connection 127.0.0.1:60748 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60750 #68 (1 connection now open)
+
+ERROR  -    [conn68] end connection 127.0.0.1:60750 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60752 #69 (1 connection now open)
+
+ERROR  -    [conn69] end connection 127.0.0.1:60752 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60762 #70 (1 connection now open)
+
+ERROR  -    [conn70] end connection 127.0.0.1:60762 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60768 #71 (1 connection now open)
+
+ERROR  -    [conn71] end connection 127.0.0.1:60768 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60770 #72 (1 connection now open)
+
+ERROR  -    [conn72] end connection 127.0.0.1:60770 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60772 #73 (1 connection now open)
+
+ERROR  -    [conn73] end connection 127.0.0.1:60772 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60776 #74 (1 connection now open)
+
+ERROR  -    [conn74] end connection 127.0.0.1:60776 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60778 #75 (1 connection now open)
+
+ERROR  -    [conn75] end connection 127.0.0.1:60778 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60780 #76 (1 connection now open)
+
+ERROR  -    [conn76] end connection 127.0.0.1:60780 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60784 #77 (1 connection now open)
+
+ERROR  -    [conn77] end connection 127.0.0.1:60784 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60786 #78 (1 connection now open)
+
+ERROR  -    [conn78] end connection 127.0.0.1:60786 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60788 #79 (1 connection now open)
+
+ERROR  -    [conn79] end connection 127.0.0.1:60788 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60790 #80 (1 connection now open)
+
+ERROR  -    [conn80] end connection 127.0.0.1:60790 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60792 #81 (1 connection now open)
+
+ERROR  -    [conn81] end connection 127.0.0.1:60792 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60794 #82 (1 connection now open)
+
+ERROR  -    [conn82] end connection 127.0.0.1:60794 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60798 #83 (1 connection now open)
+
+ERROR  -    [conn83] end connection 127.0.0.1:60798 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60802 #84 (1 connection now open)
+
+ERROR  -    [conn84] end connection 127.0.0.1:60802 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60804 #85 (1 connection now open)
+
+ERROR  -    [conn85] end connection 127.0.0.1:60804 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60830 #86 (1 connection now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60832 #87 (2 connections now open)
+
+ERROR  -    [conn87] end connection 127.0.0.1:60832 (1 connection now open)
+
+ERROR  -    [conn86] end connection 127.0.0.1:60830 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60838 #88 (1 connection now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60840 #89 (2 connections now open)
+
+ERROR  -    [conn88] end connection 127.0.0.1:60838 (1 connection now open)
+
+ERROR  -    [conn89] end connection 127.0.0.1:60840 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60842 #90 (1 connection now open)
+
+ERROR  -    [conn90] end connection 127.0.0.1:60842 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60844 #91 (1 connection now open)
+
+ERROR  -    [conn91] end connection 127.0.0.1:60844 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60846 #92 (1 connection now open)
+
+ERROR  -    [conn92] end connection 127.0.0.1:60846 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60848 #93 (1 connection now open)
+
+ERROR  -    [conn93] end connection 127.0.0.1:60848 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:60850 #94 (1 connection now open)
+
+ERROR  -    [conn94] end connection 127.0.0.1:60850 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:33828 #95 (1 connection now open)
+
+ERROR  -    [conn95] received client metadata from 127.0.0.1:33828 conn95: { driver: { name: "mongo-java-driver|legacy", version: "3.12.7-s3t" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "5.4.0-70-generic" }, platform: "Java/AdoptOpenJDK/11.0.8+10" }
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:33830 #96 (2 connections now open)
+
+ERROR  -    [conn96] received client metadata from 127.0.0.1:33830 conn96: { driver: { name: "mongo-java-driver|legacy", version: "3.12.7-s3t" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "5.4.0-70-generic" }, platform: "Java/AdoptOpenJDK/11.0.8+10" }
+
+ERROR  -    [conn96] end connection 127.0.0.1:33830 (1 connection now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:33832 #97 (2 connections now open)
+
+ERROR  -    [conn97] received client metadata from 127.0.0.1:33832 conn97: { driver: { name: "mongo-java-driver|legacy", version: "3.12.7-s3t" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "5.4.0-70-generic" }, platform: "Java/AdoptOpenJDK/11.0.8+10" }
+
+ERROR  -    [conn97] end connection 127.0.0.1:33832 (1 connection now open)
+
+ERROR  -    [conn95] end connection 127.0.0.1:33828 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:33996 #98 (1 connection now open)
+
+ERROR  -    [conn98] received client metadata from 127.0.0.1:33996 conn98: { driver: { name: "mongo-java-driver|legacy", version: "3.12.7-s3t" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "5.4.0-70-generic" }, platform: "Java/AdoptOpenJDK/11.0.8+10" }
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:33998 #99 (2 connections now open)
+
+ERROR  -    [conn99] received client metadata from 127.0.0.1:33998 conn99: { driver: { name: "mongo-java-driver|legacy", version: "3.12.7-s3t" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "5.4.0-70-generic" }, platform: "Java/AdoptOpenJDK/11.0.8+10" }
+
+ERROR  -    [conn99] end connection 127.0.0.1:33998 (1 connection now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:34000 #100 (2 connections now open)
+
+ERROR  -    [conn100] received client metadata from 127.0.0.1:34000 conn100: { driver: { name: "mongo-java-driver|legacy", version: "3.12.7-s3t" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "5.4.0-70-generic" }, platform: "Java/AdoptOpenJDK/11.0.8+10" }
+
+ERROR  -    [conn100] end connection 127.0.0.1:34000 (1 connection now open)
+
+ERROR  -    [conn98] end connection 127.0.0.1:33996 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:34164 #101 (1 connection now open)
+
+ERROR  -    [conn101] received client metadata from 127.0.0.1:34164 conn101: { driver: { name: "mongo-java-driver|legacy", version: "3.12.7-s3t" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "5.4.0-70-generic" }, platform: "Java/AdoptOpenJDK/11.0.8+10" }
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:34166 #102 (2 connections now open)
+
+ERROR  -    [conn102] received client metadata from 127.0.0.1:34166 conn102: { driver: { name: "mongo-java-driver|legacy", version: "3.12.7-s3t" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "5.4.0-70-generic" }, platform: "Java/AdoptOpenJDK/11.0.8+10" }
+
+ERROR  -    [conn102] end connection 127.0.0.1:34166 (1 connection now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:34168 #103 (2 connections now open)
+
+ERROR  -    [conn103] received client metadata from 127.0.0.1:34168 conn103: { driver: { name: "mongo-java-driver|legacy", version: "3.12.7-s3t" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "5.4.0-70-generic" }, platform: "Java/AdoptOpenJDK/11.0.8+10" }
+
+ERROR  -    [conn103] end connection 127.0.0.1:34168 (1 connection now open)
+
+ERROR  -    [conn101] end connection 127.0.0.1:34164 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:34930 #104 (1 connection now open)
+
+ERROR  -    [conn104] received client metadata from 127.0.0.1:34930 conn104: { driver: { name: "mongo-java-driver|legacy", version: "3.12.7-s3t" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "5.4.0-70-generic" }, platform: "Java/AdoptOpenJDK/11.0.8+10" }
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:34932 #105 (2 connections now open)
+
+ERROR  -    [conn105] received client metadata from 127.0.0.1:34932 conn105: { driver: { name: "mongo-java-driver|legacy", version: "3.12.7-s3t" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "5.4.0-70-generic" }, platform: "Java/AdoptOpenJDK/11.0.8+10" }
+
+ERROR  -    [conn105] end connection 127.0.0.1:34932 (1 connection now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:34934 #106 (2 connections now open)
+
+ERROR  -    [conn106] received client metadata from 127.0.0.1:34934 conn106: { driver: { name: "mongo-java-driver|legacy", version: "3.12.7-s3t" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "5.4.0-70-generic" }, platform: "Java/AdoptOpenJDK/11.0.8+10" }
+
+ERROR  -    [conn106] end connection 127.0.0.1:34934 (1 connection now open)
+
+ERROR  -    [conn104] end connection 127.0.0.1:34930 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:35362 #107 (1 connection now open)
+
+ERROR  -    [conn107] received client metadata from 127.0.0.1:35362 conn107: { driver: { name: "mongo-java-driver|legacy", version: "3.12.7-s3t" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "5.4.0-70-generic" }, platform: "Java/AdoptOpenJDK/11.0.8+10" }
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:35364 #108 (2 connections now open)
+
+ERROR  -    [conn108] received client metadata from 127.0.0.1:35364 conn108: { driver: { name: "mongo-java-driver|legacy", version: "3.12.7-s3t" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "5.4.0-70-generic" }, platform: "Java/AdoptOpenJDK/11.0.8+10" }
+
+ERROR  -    [conn108] end connection 127.0.0.1:35364 (1 connection now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:35366 #109 (2 connections now open)
+
+ERROR  -    [conn109] received client metadata from 127.0.0.1:35366 conn109: { driver: { name: "mongo-java-driver|legacy", version: "3.12.7-s3t" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "5.4.0-70-generic" }, platform: "Java/AdoptOpenJDK/11.0.8+10" }
+
+ERROR  -    [conn109] end connection 127.0.0.1:35366 (1 connection now open)
+
+ERROR  -    [conn107] end connection 127.0.0.1:35362 (0 connections now open)
+
+ERROR  -    [initandlisten] Shutting down the global connection pool
+
+ERROR  -    [initandlisten] Shutting down the ReplicaSetMonitor
+
+WARNING  -  : Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+
+WARNING  -  : Access control is not enabled for the database.
+
+ERROR  -    [initandlisten] waiting for connections on port 27017
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:42926 #1 (1 connection now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:42928 #2 (2 connections now open)
+
+ERROR  -    [conn1] end connection 127.0.0.1:42926 (1 connection now open)
+
+ERROR  -    [conn2] end connection 127.0.0.1:42928 (0 connections now open)
+
+ERROR  -    [listener] connection accepted from 127.0.0.1:43010 #3 (1 connection now open)
+
+ERROR  -    [conn3] end connection 127.0.0.1:43010 (0 connections now open)
+
+ERROR  -    [initandlisten] Failed to unlink socket file /tmp/mongodb-27017.sock Operation not permitted
+
